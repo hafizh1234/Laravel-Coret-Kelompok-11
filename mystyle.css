@@ -1,0 +1,349 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+#floatLogin{
+  float:right;
+  background-color: #4CAF50;
+}
+.dropdown-menu{
+  background-color: #333;
+  
+}
+.dropdown-item{
+  text-align: left;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+html {
+  height: 100%;
+}
+.container-fluid {
+  padding:50px;
+}
+.container{
+  background-color:white;
+  padding:50px;   
+}
+#title{font-family: 'Lobster', cursive;;}
+/*body {
+  overflow: 
+  hidden;
+  background-color: #EEEEEE;
+  background-size: cover;
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font: normal 14px/1.618em "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}*/
+
+
+h1,h2 {
+  font-weight: 500;
+  margin: 0px 0px 5px 0px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0px;
+}
+
+button {
+  margin-top: 10px;
+  width: auto;
+  border: 1px solid #4CAF50;
+  background: #fff;
+  padding: 5px 30px;
+  color: #4CAF50;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:hover {
+  width: auto;
+  background: #4CAF50;
+  color: #fff;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+body{
+  background-color: #dddddd;
+}
+.container-fluid {
+  padding-top: 20px;
+}
+.form-group{
+
+}
+.container{
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+.card {
+  width: auto;
+  margin:0px 10px 15px 15px;
+  padding: 10px 15px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+}
+.card-body{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+}
+.card h1 {
+  color: #4CAF50;
+}
+.card header {
+  text-align: center;
+  margin: 10px 0px 0px 0px; 
+}
+.card header a {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 10px 10px;
+}
+.jumbotron{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/*
+.container{
+  padding-top: 20px;
+}
+.product-card {
+  background: #4CAF50;
+  width: 550px;
+  height: 156px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: 90px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  animation: init 1.5s 0.2s cubic-bezier(0.55, 0.055, 0.275, 0.19) forwards, materia 0.5s .9s cubic-bezier(0.86, 0, 0.07, 1) forwards; 
+}
+.product-card header {
+  width: 230px;
+  height: 280px;
+  padding: 50px 0px 10px 0px;
+  display: inline-block;
+  float: left;
+  border-right: 2px dashed #EEEEEE;
+  background: #FFFFFF;
+  color: #000000;
+  margin-top: 50px;
+  opacity: 0;
+  text-align: center;
+  animation: moveIn 1s 1.5s ease forwards;
+}
+
+.product-card header h1 {
+  color: #4CAF50;
+}
+
+.product-card header a {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 10px 20px;
+}
+
+.product-card header a > img {
+  max-width: 100%;
+}
+
+.product-card header a:after {
+  position: absolute;
+  content: "$500";
+  bottom: 3px;
+  right: 3px;
+  padding: 10px 5px;
+  border: 4px solid #FFFFFF;
+  transform: scale(0);
+  background: linear-gradient(#4CAF50 0%, #4CAF50 50%, #4CAF50 50%, #4CAF50 100%);
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  animation: scaleIn 1.3s 1.5s ease forwards;
+}
+
+.product-card .product-bio {
+  width: 165px;
+  height: 180px;
+  display: inline-block;
+  float: right;
+  padding: 50px 20px 30px 20px;
+  background: #FFFFFF;
+  color: #333333;
+  margin-top: 50px;
+  text-align: center;
+  opacity: 0;
+  animation: moveIn 1s 1s ease forwards;
+}
+
+@keyframes init {
+  0% {
+    width: 0px;
+    height: 0px;
+  }
+  100% {
+    width: 36px;
+    height: 36px;
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes materia {
+  0% {
+    background: #E0E0E0;
+  }
+  50% {
+    border-radius: 4px;
+  }
+  100% {
+    width: 440px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 4px;
+  }
+}
+
+@keyframes moveIn {
+  0% {
+    margin-top: 50px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-aspect-ratio: 4/3) {
+  body {
+    background-size: cover;
+  }
+  body:before {
+    width: 0px;
+  }
+  @ -webkit-keyframes puff {
+    0% {
+      top: 100%;
+      width: 0px;
+      padding-bottom: 0px;
+    }
+    100% {
+      top: 50%;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
+  @keyframes puff {
+    0% {
+      top: 100%;
+      width: 0px;
+      padding-bottom: 0px;
+    }
+    100% {
+      top: 50%;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+  }
+}
+
+@media screen and (min-height: 480px) {
+  .product-card header {
+    width: auto;
+    height: auto;
+    padding: 20px 35px;
+    display: block;
+    float: none;
+    border-right: none;
+  }
+  
+  .product-card .product-bio {
+    width: auto;
+    height: auto;
+    padding: 10px 20px 30px 20px;
+    display: block;
+    float: none;
+  }
+
+  @keyframes materia {
+    0% {
+      background: #E0E0E0;
+    }
+    50% {
+      border-radius: 4px;
+    }
+    100% {
+      width: 280px;
+      height: 440px;
+      background: #FFFFFF;
+      border-radius: 4px;
+    }
+  }
+}*/

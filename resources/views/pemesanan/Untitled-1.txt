@@ -1,0 +1,96 @@
+     <div class="column">
+        <div class="card" style="width: 16rem;">
+          <header>
+          <a target="_blank" href="/pemesanans/create/"><img src="img\bali.jpg"></a>
+            <div class="card-body">
+              <h1>Bali</h1>
+              <h2>Baju Adat</h2>
+            </div>
+          </header>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="cart">Rent This!</button>
+          </div>
+        </div>    
+      </div>
+    <div class="column">
+        <div class="card" style="width: 16rem;">
+          <header>
+            <a target="_blank" href="#"><img src="img\bali.jpg"></a>
+            <div class="card-body">
+              <h1>Bali</h1>
+              <h2>Baju Adat</h2>
+            </div>
+          </header>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="cart">Rent This!</button>
+          </div>
+        </div>    
+      </div>
+      <div class="column">
+        <div class="card" style="width: 16rem;">
+          <header>
+            <a target="_blank" href="#"><img src="img\bali.jpg"></a>
+            <div class="card-body">
+              <h1>Bali</h1>
+              <h2>Baju Adat</h2>
+            </div>
+          </header>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="cart">Rent This!</button>
+          </div>
+        </div>    
+      </div>
+      <div class="column">
+        <div class="card" style="width: 16rem;">
+          <header>
+            <a target="_blank" href="#"><img src="img\bali.jpg"></a>
+            <div class="card-body">
+              <h1>Bali</h1>
+              <h2>Baju Adat</h2>
+            </div>
+          </header>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="cart">Rent This!</button>
+          </div>
+        </div>    
+      </div>
+      <div class="column">
+        <div class="card" style="width: 16rem;">
+          <header>
+            <a target="_blank" href="#"><img src="img\bali.jpg"></a>
+            <div class="card-body">
+              <h1>Bali</h1>
+              <h2>Baju Adat</h2>
+            </div>
+          </header>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="cart">Rent This!</button>
+          </div>
+        </div>    
+      </div>
+      <div class="column">
+        <div class="card" style="width: 16rem;">
+          <header>
+            <a target="_blank" href="#"><img src="img\bali.jpg"></a>
+            <div class="card-body">
+              <h1>Bali</h1>
+              <h2>Baju Adat</h2>
+            </div>
+          </header>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="cart">Rent This!</button>
+          </div>
+        </div>    
+      </div>
